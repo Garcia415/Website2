@@ -186,20 +186,21 @@
     margin-bottom: 20px;
 }
 .fourth-sec{
-    height: 180vh;
+    height: auto;
     width: 100%;
     background-color: rgb(18, 18, 18);
     color: #fff;
     display: flex;
     flex-direction: column;
+    padding-bottom: 25px;
 }
 .footer-h1{
-    font-size: 6rem;
+    font-size: 7rem;
     margin-top: 15%;
 }
 .footer-h11{
     margin-bottom: 100px;
-    font-size: 6rem;
+    font-size: 7rem;
 }
 .footer-h2{
     margin-bottom: 20px;
@@ -248,6 +249,7 @@ footer .hidden .color::before{
     font-size: 20px;
     color: #fff;    
     justify-content: space-around;
+    margin-bottom: ;
 }
 .ways-to-contact p{
     padding: 10px;
@@ -279,3 +281,86 @@ footer .hidden .color::before{
     transition: all .5s;
     cursor: pointer;
 }
+
+/* FOR MOBILE DEVICES */
+@media  (max-width: 503px){
+    .container-h1{
+        text-align: center;
+        margin: 5px;
+    }
+    .footer-h1{
+        font-size: 4rem;
+    }
+    .footer-h11{
+        font-size: 4rem;
+    }
+    .footer-h2{
+        font-size: 2.5rem;
+    }
+    .second-sec{
+        height: auto;
+    }
+    .container-h1{
+        font-size: 60px;
+    }
+    .about-me-h1{
+        margin-top: 10%
+    }
+    .flex{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .skills-flex{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px
+    }
+    .ps{
+        margin-right: 20px;
+        margin-bottom: 35px;
+    }
+    .fourth-sec{
+        height: auto;
+    }
+}
+/* FOR TABLET DEVICES */
+@media (min-width: 503px ) and (max-width:800px){
+    .container-h1{
+        text-align: center;
+        margin: 5px
+    }
+    .footer-h1{
+        font-size: 4.5rem;
+    }
+    .footer-h11{
+        font-size: 4.5rem;
+    }
+    .second-sec{
+        height: auto;
+    }
+    .container-h1{
+        font-size: 60px;
+    }
+    .footer-h2{
+        font-size: 3.2rem;
+    }
+    .about-me-h1{
+        margin-top: 10%
+    }
+    .flex{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .skills-flex{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px
+    }
+    .ps{
+        margin-right: 20px;
+        margin-bottom: 35px;
+    }
+    .fourth-sec{
+        height: auto;
+    }
+};
